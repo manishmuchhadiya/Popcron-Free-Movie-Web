@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../images/login-background.jpg);
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    display: block;
+    width: 175px;
+    margin: 25px auto 35px;
+    color: rgba(255, 255, 255, 1);
+}
+form{
+    background-color: rgb(255, 255, 255);
+    box-shadow: #3c42571f 0 7px 14px,#0000001f 0 3px 6px;
+    max-width: 385px;
+    height: 455px;
+    padding: 44px 44px 32px 32px;
+    margin: auto;
+    border-radius: 4px
+}
+.header{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.label{
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+input{
+    /*  border-color:#FCC7C3 ; */
+    font-size: 1.5rem;
+    letter-spacing: .5px;
+    height: 44px;
+    padding: 6px 12px;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button{
+    border: 0;
+    background-color: #F44336;
+    box-shadow: 0 3px 1px -2px #0003,0 2px 2px 0 #00000024,0 1px 5px 0 #0000001f;
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    line-height: 48px;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+a{
+    text-decoration: none;
+    padding-right: 2px;
+    color:rgb(92, 95, 255);
+
+}
+.copy{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 1);
+}
